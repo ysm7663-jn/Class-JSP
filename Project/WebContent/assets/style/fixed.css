@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+	background: white;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	position: relative;
+	width: 100%;
+}
+
+.head-wrap {
+	margin: 0px;
+	width: 100%;
+	padding: 80px 420px;
+	border: 1px solid white;
+	height: 150px;
+	postion: fix;
+	margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right_header ul li:nth-of-type(n){
+	display: inline;
+	margin-left: 80px;
+	font-weight: 700;
+    font-size: 18px;
+}
+
+#right_header ul li:nth-of-type(3) {
+	font-weight: 700;
+	margin-left: 80px;
+	font-size: 18px;
+	background: black;
+	padding:15px;
+	border: none;
+}
+
+#right_header ul li:nth-of-type(3) > a {
+	color: white;
+}
+
+.main {
+	width: 100%;
+	padding: 40px 420px;
+	display: inline-block;
+	font-size:28px;
+}
+
+.footer {
+    width: 100%;
+    margin: 0px;
+    bottom:0;
+    padding: 0px 420px;
+	border: 1px solid white;
+	height: 500px;
+	margin-top: 200px;
+	position:relative;
+	color: gray;
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_footer > p {
+	font-size: 30px;
+	font-weight: 900
+}
+
+.foot-left-partners {
+   display: flex;
+   margin-top: 50px;
+}
+
+li {
+	padding: 3px 0px;	
+	list-style-type: none;
+}
+
+.partners-info {
+	font-size: 18px;
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	margin-right: 60px;
+}
+
+.foot-right-contact {
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+}
+
+.partners-info {
+	font-size: 18px;
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	margin-right: 60px;
+}
+
+address {
+	font-style: normal;
+	margin-top: 50px;
+}
+
+.foot-right-contact > li {
+	margin-bottom: 50px;
+}
+
+.foot-right-contact > li > a {
+	font-weight: 900;
+	color: gray;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.foot-right-contact > li > p {
+	font-size: 18px;
+}
+
+#partner-bold {
+	font-weight: 900
+}
+
+p {
+   margin:0px;
+   padding:0px;
+}
+
+.foot-right {
+   float: right;
+   padding: 30px 50px 30px 0px;
+}

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+	background: white;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	position: relative;
+	width: 100%;
+}
+
+/* header */
+.head-wrap {
+	margin: 0px;
+	width: 100%;
+	padding: 40px 420px;
+	border: 1px solid white;
+	position: relative;
+	top: 10px;
+	background: white;
+    display: flex;
+    justify-content: space-between;
+    background: gray;
+    color: blue;
+}
+
+.head-logo {
+	margin-top: 28px;
+}
+
+#right_header div:nth-of-type(n) {
+	display: inline;
+	margin-left: 100px;
+	font-weight: 700;
+    font-size: 18px;
+    padding:18px;
+}
+
+.right_header_wrap {
+	padding:20px 0px;
+}
+
+#right_header {
+	display: flex;
+	padding: 20px 0px;
+}
+
+
+
+#right_header div:nth-of-type(3) {
+	font-weight: 700;
+	font-size: 18px;
+	background: black;
+	border: none;
+}
+
+#right_header :nth-of-type(3) > a {
+	color: white;
+}
+
+
+/* body */
+.main {
+	margin-top: 400px;
+	width: 100%;
+	padding: 40px 420px;
+	display: inline-block;
+	font-size:28px;
+}
+
+
+/* footer */
+.footer {
+    width: 100%;
+    margin: 0px;
+    bottom:0;
+    padding: 0px 420px;
+	border: 1px solid white;
+	height: 500px;
+	margin-top: 300px;
+	position:relative;
+	color: gray;
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_footer > p {
+	font-size: 30px;
+	font-weight: 900
+}
+
+.foot-left-partners {
+   display: flex;
+   margin-top: 50px;
+}
+
+li {
+	padding: 3px 0px;	
+	list-style-type: none;
+}
+
+.partners-info {
+	font-size: 18px;
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	margin-right: 60px;
+}
+
+.foot-right-contact {
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+}
+
+.partners-info {
+	font-size: 18px;
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	margin-right: 60px;
+}
+
+address {
+	font-style: normal;
+	margin-top: 50px;
+}
+
+.foot-right-contact > li {
+	margin-bottom: 50px;
+}
+
+.foot-right-contact > li > a {
+	font-weight: 900;
+	color: gray;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.foot-right-contact > li > p {
+	font-size: 18px;
+}
+
+#partner-bold {
+	font-weight: 900
+}
+
+p {
+   margin:0px;
+   padding:0px;
+}
+
+.foot-right {
+   float: right;
+}

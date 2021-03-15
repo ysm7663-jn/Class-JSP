@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.main {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.wrap {
+	box-sizing: border-box;
+	width: 100%;	
+}
+
+.head_title > #title {
+	padding: 50px 0px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.station_wrap {
+	display: flex;
+}
+
+.station_wrap > #station_name {
+	width: 150px;
+	height: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.head_wrap > #line {
+	border: 1px solid lightgray;
+	margin-bottom: 15px;
+}
+
+.head_content {
+	display: flex;
+}
+
+.head_content > .box_box > .choice {
+	width: 250px;
+	height: 150px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid lightgray;
+	margin-right: 20px;
+}
+
+.head_wrap > #more_btn {
+	background: black;
+	color: white;
+	width: 100px;
+	height: 30px;
+	font-weight: 900;
+	font-size: 17px;
+}

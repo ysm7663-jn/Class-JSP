@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.main {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.wrap {
+	box-sizing: border-box;
+	width: 100%;	
+}
+
+.head_wrap {
+	display: flex;
+}
+
+.head_wrap > .img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid lightgray;
+	text-align: center;
+	line-height: 200px;
+	color: lightgray;
+	margin: 15px;
+}
+
+.head_wrap > .content > #stationName {
+	padding-top: 10px;
+	color: purple;
+	font-weight: 900;
+	font-size: 15px;
+}
+
+.head_wrap > .content {
+	font-weight: 900;
+	font-size: 20px;	
+	}
+	
+.body_wrap > #review_content {
+	width: 550px;	
+	hegiht: 250px;
+}
+
+.body_wrap > .review {
+	font-size: 20px;	
+}
+
+.body_wrap > .review > .input_title { 
+	margin-bottom: 5px;		
+}
+	
+.body_wrap > .review > #review_title {
+	width: 550px;
+	height: 35px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.body_wrap > .review > #review_when {
+	width: 550px;
+	height: 35px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.body_wrap > .review > #review_who {
+	width: 550px;
+	height: 35px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#img_upload {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;	
+}
+
+#submit_btn {
+	background: black;
+	color: white;
+	width: 200px;
+	height: 60px;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+#review_view_btn {
+	border: 1px solid white;
+	background: white;
+	width: 200px;
+	height: 60px;
+	font-weight: 900;
+	font-size: 17px;
+}
+	

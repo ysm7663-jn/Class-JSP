@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.main {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.head_wrap > #head_title {
+	padding: 50px 0px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.body_wrap > .input_box, .place_input_box  {
+	font-weigh: 900;
+	font-size: 20px;
+}
+
+.input_box > input[type=text] {
+	width: 500px;
+	height: 30px;
+	
+	border: 1px solid lightgray;
+	
+	padding: 5px 10px;
+	margin: 15px 0px;
+}
+
+.place_input_box > #plcae_input_name {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.place_input_box > input[type=text] {
+	width: 500px;
+	height: 30px;
+	
+	border: 1px solid lightgray;
+	
+	padding: 5px 10px;
+	margin: 15px 0px;
+}
+
+.place_input_box > #map {
+	border: 1px solid gray;
+	
+	width: 500px;
+	height: 300px;
+}
+
+#addPlace_submit_btn {
+	background: black;
+	color: white;
+	width: 200px;
+	height: 60px;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+#cancel_btn {
+	border: 1px solid white;
+	background: white;
+	width: 200px;
+	height: 60px;
+	font-weight: 900;
+	font-size: 17px;
+}
+
